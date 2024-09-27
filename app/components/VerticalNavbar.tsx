@@ -28,16 +28,16 @@ const VerticalNavbar = () => {
       >
         <div className="flex flex-col space-y-4">
           <Link href="/" className="hover:bg-blue-700 py-2 px-4 rounded-lg">
-            Accueil
+            Home
           </Link>
           <Link href="/about" className="hover:bg-blue-700 py-2 px-4 rounded-lg">
-            À propos
+            Shorts
           </Link>
           <Link href="/services" className="hover:bg-blue-700 py-2 px-4 rounded-lg">
             Services
           </Link>
           <Link href="/contact" className="hover:bg-blue-700 py-2 px-4 rounded-lg">
-           Contact
+           subscription
           </Link>
         </div>
       </nav>

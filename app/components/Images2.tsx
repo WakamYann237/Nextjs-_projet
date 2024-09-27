@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Gallery2: React.FC = () => {
   return (
-    <div className="flex justify-end space-x-5 py-0 px-20">
+    <div className="sm:flex justify-end sm:flex-wrap gap-4 sm:py-0 px-20">
       <div className="">
         <Image 
           src="/projet_nextjs/Video(3).png" 

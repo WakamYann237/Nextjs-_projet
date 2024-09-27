@@ -3,14 +3,14 @@ import Image from 'next/image';
 const Gallery1: React.FC = () => {
   return (
     
-    <div className="flex justify-end space-x-5 py-20 px-20">
+    <div className="sm:flex justify-end sm:flex-wrap gap-4 sm:py-20 px-20 ">
       <div className="">
         <Image 
           src="/projet_nextjs/Video.png" 
           alt="Photo 1" 
           width={400} 
           height={200} 
-          className="rounded-[15px] "
+          className="rounded-[15px]  "
         />
         <br />
         <div className="flex space-x-5">

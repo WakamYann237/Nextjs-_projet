@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className="flex justify-end space-x-5 py-20 px-40">
+    <div className="sm:flex justify-end sm:flex-wrap gap-4 sm:py-40 px-40">
         <div className="flex space-x-2">
         <Image 
           src="/projet_nextjs/Logo(4).png" 
